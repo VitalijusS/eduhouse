@@ -1,0 +1,22 @@
+.main-header{
+    background-color: antiquewhite;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.form{
+
+}
+
+.user-block{
+    gap: 30px;
+    align-items: center;
+    display: flex;
+}
+.avatar{
+    height: 50px;
+}
+.notifications{
+    font-size: 30px;
+}
