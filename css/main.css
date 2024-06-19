@@ -11,6 +11,26 @@ body {
 }
 
 main {    
-    background-color: aqua;
+    display: grid;
+    align-items: start;
+    align-content: start;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "header header header header"
+    "progress progress progress subscription"
+    "popular mentors mentors mentors";
+    gap: 50px;
+    padding: 20px 30px;
 }
-
+.course-progress{
+    grid-area: progress;
+}
+.subscription{
+    grid-area: subscription;
+}
+.popular-categories{
+    grid-area: popular;
+}
+.top-mentors{
+    grid-area: mentors;
+}
