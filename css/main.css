@@ -19,7 +19,7 @@ main {
     "header header header header"
     "progress progress progress subscription"
     "popular mentors mentors mentors";
-    gap: 50px;
+    gap: 30px;
     padding: 20px 30px;
 }
 .course-progress{
@@ -33,4 +33,33 @@ main {
 }
 .top-mentors{
     grid-area: mentors;
+}
+.block{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.block > .title {
+    font-size: 20px;
+    margin: 0;
+    align-self: center;
+}
+
+.block > .link{
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+    text-decoration: none;
+    justify-self: end;
+    align-self: center;
+}
+
+.block > .content{
+    grid-column: span 2;
+}
+
+.block.block-bg{
+    background-color: #eefcef;
+    border-radius: 30px;
+    padding: 20px;
 }
