@@ -54,10 +54,43 @@ main {
 
 .block > .content{
     grid-column: span 2;
+    margin-top: 2.7rem;
 }
 
 .block.block-bg{
     background-color: #eefcef;
     border-radius: 30px;
     padding: 20px;
+}
+
+.block > title + .content {
+    margin-top: 0;
+}
+
+.block > .link + .content {
+    margin-top: 0;
+}
+.subscription .btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.subscription .content {
+    background-color: #feefd0;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subscription .content>img {
+    margin-top: -130px;
+    height: 250px;
 }
